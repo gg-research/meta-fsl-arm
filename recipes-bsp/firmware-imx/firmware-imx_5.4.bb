@@ -7,6 +7,9 @@ SRC_URI[md5sum] = "dae846ca2fc4504067f725f501491adf"
 SRC_URI[sha256sum] = "c5bd4bff48cce9715a5d6d2c190ff3cd2262c7196f7facb9b0eda231c92cc223"
 
 #BRCM firmware git
-SRCREV = "951c1363abe95dd75ab3e9447f640d7807240236"
+# this rev no longer avail when nxp "disappeared" git.freescale.com
+##
+#SRCREV = "951c1363abe95dd75ab3e9447f640d7807240236"
+SRCREV = "f6d0859f9435796f03ae93b70b5f92f4406bc56d"
 
 COMPATIBLE_MACHINE = "(mx5|mx6|mx6ul|mx7)"
